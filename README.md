@@ -6,7 +6,7 @@ This script reads any text file using voice cloning. It automatically splits the
 
 Additionally you can use a LLM via API to translate the text into a different language and read that translation instead. This all works in realtime, with a small lead time at the beginning on a 1050 GTX with just 4GB VRAM (It uses xtts-v2, and 4GB vram only works if you have closed anything else, so I recommend at least 6GB VRAM to be on the safe side)
 
-For the translation I'm using https://huggingface.co/mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF as it is a fast and suitable model giving up to 20 Tokens/s on a AMD 7950x cpu using llama.cpp. To make the translation work, I use the Dolphin prompt. Some models refuse to translate or return a wrong form. In that case the translation is repeated until the output contains text between the tags <translation> and </translation>.
+For the translation I'm using https://huggingface.co/mradermacher/Llama-3.2-3B-Instruct-uncensored-GGUF as it is a fast and suitable model giving up to 20 Tokens/s on a AMD 7950x cpu using llama.cpp. To make the translation work, I use the Dolphin prompt. Some models refuse to translate or return a wrong form. In that case the translation is repeated until the output contains text between the tags \<translation> and \</translation>.
 You can also use chatgpt or any other service as long you provide the correct adress and api key.
 
 # Installation
