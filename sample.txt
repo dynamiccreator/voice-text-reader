@@ -1,0 +1,1 @@
+This is just an example text showcasing the capabilities of the voice reader script.
