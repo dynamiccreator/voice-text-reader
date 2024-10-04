@@ -19,7 +19,7 @@ pip install requirements.txt
 For real time usage you will need a NVIDIA GPU, at least 1050 GTX or better. So you must install cuda on your device.
 
 # Usage
-Make sure you have prepared your desired voice talking on a .wav or .mp3 file.
+Make sure you have prepared your desired voice talking on a .wav or .mp3 file. If you do not provide a speaker file, a file of a sine wave is used for voice cloning which will often cause bad quality speech.
 
 Reading an english text:
 ```
