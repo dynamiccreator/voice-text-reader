@@ -32,7 +32,7 @@ python voice-text-reader.py -t sample.txt -l de -sp desired_voice.mp3 -p 1000
 
 Reading a text of any language translated to spanish:
 ```
-python voice-text-reader.py -t sample.txt -l es -sp desired_voice.mp3 -p 1000 -trans spanish -trans_path http://localhost:1234 -trans_api API_KEY_HERE
+python voice-text-reader.py -t sample.txt -l es -sp desired_voice.mp3 -trans spanish -trans_path http://localhost:1234 -trans_api API_KEY_HERE
 ```
 
 
