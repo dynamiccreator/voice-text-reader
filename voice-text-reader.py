@@ -13,6 +13,10 @@ import re
 import argparse
 
 
+nltk.download('punkt')
+nltk.download('punkt_tab')
+
+
 # Get the current working directory
 current_dir = os.getcwd()
 
@@ -64,7 +68,7 @@ if param_trans is not None:
 
 
 
-nltk.download('punkt')
+
 
 def is_non_empty_string(variable):
     return isinstance(variable, str) and len(variable) > 0
